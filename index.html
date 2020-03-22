@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5cb6e9453dd241f1b05d1d347869671e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5cb6e9453dd241f1b05d1d347869671e" ></div>
+        
+</body>
+<script>    
+    
+            var map_5cb6e9453dd241f1b05d1d347869671e = L.map(
+                "map_5cb6e9453dd241f1b05d1d347869671e",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d0500cb4f4b84e85952f1aa96ecde4c2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+            var circle_4015e225c55a49d2b906dc4356f240f2 = L.circle(
+                [33.5897018, 119.0211943],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_014dc1e2bcfb4488b5f1e24ba60e18c0 = L.popup({"maxWidth": 700});
+
+        
+            var html_5e99c346e6134d58bc13819bab83add2 = $(`<div id="html_5e99c346e6134d58bc13819bab83add2" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Huai'an fourth people's Hospital</td>       <td>Drug: TCM prescriptions</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_014dc1e2bcfb4488b5f1e24ba60e18c0.setContent(html_5e99c346e6134d58bc13819bab83add2);
+        
+
+        circle_4015e225c55a49d2b906dc4356f240f2.bindPopup(popup_014dc1e2bcfb4488b5f1e24ba60e18c0)
+        ;
+
+        
+    
+    
+            var circle_31f7354af2604584a7a8302305f40465 = L.circle(
+                [44.83495335, 8.745030418605866],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_3428b0815b2341849d745dac4b9d8a9a = L.popup({"maxWidth": 700});
+
+        
+            var html_ae1e125ad1ef40e8b48b0e8b2b94e4ed = $(`<div id="html_ae1e125ad1ef40e8b48b0e8b2b94e4ed" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Azienda Ospedaliera "SS. Antonio e Biagio e C. Arrigo" (Dipartimento Internistico SSD Reumatologia)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_3428b0815b2341849d745dac4b9d8a9a.setContent(html_ae1e125ad1ef40e8b48b0e8b2b94e4ed);
+        
+
+        circle_31f7354af2604584a7a8302305f40465.bindPopup(popup_3428b0815b2341849d745dac4b9d8a9a)
+        ;
+
+        
+    
+    
+            var circle_ceb74b8171eb461984fa4daf5cc78365 = L.circle(
+                [45.6119057, 8.8520522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_b96c4653c4f94b45b37b87e27744765a = L.popup({"maxWidth": 700});
+
+        
+            var html_d1da453c63ef4652bcbd303432423706 = $(`<div id="html_d1da453c63ef4652bcbd303432423706" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Ospedale di Busto Arsizio ASST Valle Olona (U.O.C. Malattie Infettive)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_b96c4653c4f94b45b37b87e27744765a.setContent(html_d1da453c63ef4652bcbd303432423706);
+        
+
+        circle_ceb74b8171eb461984fa4daf5cc78365.bindPopup(popup_b96c4653c4f94b45b37b87e27744765a)
+        ;
+
+        
+    
+    
+            var circle_18bd95770ffc471e95688d3805a3065d = L.circle(
+                [37.5022355, 15.08738],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_3f5aceffc23347d5bd04b63cb7907e76 = L.popup({"maxWidth": 700});
+
+        
+            var html_1171fa78615e4776b0bd5be98e72e1bb = $(`<div id="html_1171fa78615e4776b0bd5be98e72e1bb" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>A.O.U. Policlinico V. Emanuele (U.O. di Malattie infettive</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>1</th>       <td>AOE Cannizzaro di Catania (U.O. di Malattie Infettive</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_3f5aceffc23347d5bd04b63cb7907e76.setContent(html_1171fa78615e4776b0bd5be98e72e1bb);
+        
+
+        circle_18bd95770ffc471e95688d3805a3065d.bindPopup(popup_3f5aceffc23347d5bd04b63cb7907e76)
+        ;
+
+        
+    
+    
+            var circle_1504541429844228a71c082472916680 = L.circle(
+                [39.596685300000004, 16.333055599019605],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_dd203ef471474ec497e79e2b71a80390 = L.popup({"maxWidth": 700});
+
+        
+            var html_c780ff5ecc2a418faa3e0232c82bf8ce = $(`<div id="html_c780ff5ecc2a418faa3e0232c82bf8ce" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Ospedale Annunziata Azienda Ospedaliera di Cosenza (U.O.C. Malattie Infettive)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_dd203ef471474ec497e79e2b71a80390.setContent(html_c780ff5ecc2a418faa3e0232c82bf8ce);
+        
+
+        circle_1504541429844228a71c082472916680.bindPopup(popup_dd203ef471474ec497e79e2b71a80390)
+        ;
+
+        
+    
+    
+            var circle_381648fa6e6c47fe8b4e0920289539a9 = L.circle(
+                [49.0481479, 3.9665072],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_9a7b4315629745af9eab8364c3b7e95c = L.popup({"maxWidth": 700});
+
+        
+            var html_8207d4750f57499cac45885dbd2ef763 = $(`<div id="html_8207d4750f57499cac45885dbd2ef763" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>ASST OVEST MILANESE presidi Legnano - Magenta</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_9a7b4315629745af9eab8364c3b7e95c.setContent(html_8207d4750f57499cac45885dbd2ef763);
+        
+
+        circle_381648fa6e6c47fe8b4e0920289539a9.bindPopup(popup_9a7b4315629745af9eab8364c3b7e95c)
+        ;
+
+        
+    
+    
+            var circle_96339ef6332341aa89dc4493b2f319c9 = L.circle(
+                [44.5384728, 10.935960870530739],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_57632c567a7149d2af49559841538ed1 = L.popup({"maxWidth": 700});
+
+        
+            var html_156c18ef72814adc93a32a14b5c49a8c = $(`<div id="html_156c18ef72814adc93a32a14b5c49a8c" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Azienda Ospedaliero-Universitaria di Modena</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>1</th>       <td>A.O.U. di Modena (Dipartimento Chirurgie Generali e Specialita Chirurgiche - Struttura Complessa di Anestesia e Rianimazione I)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>2</th>       <td>A.O.U. di Modena (Dipartimento Chirurgie Generali e Specialita Chirurgiche - Struttura Complessa di Anestesia e Rianimazione II)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>3</th>       <td>A.O.U. di Modena (Dipartimento Medicine Specialistiche - Struttura Complessa Malattie Infettive)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>4</th>       <td>Dipartimento Medicine Specialistiche - Struttura Complessa Malattie dell'Apparato Respiratorio</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_57632c567a7149d2af49559841538ed1.setContent(html_156c18ef72814adc93a32a14b5c49a8c);
+        
+
+        circle_96339ef6332341aa89dc4493b2f319c9.bindPopup(popup_57632c567a7149d2af49559841538ed1)
+        ;
+
+        
+    
+    
+            var circle_2f57efd932b84478b0dafdb8a6533671 = L.circle(
+                [40.8359336, 14.2487826],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_10009ebedb224878a84adc043e7f6ff8 = L.popup({"maxWidth": 700});
+
+        
+            var html_85f7a15ee1aa4e51b9eb8ef46d048a13 = $(`<div id="html_85f7a15ee1aa4e51b9eb8ef46d048a13" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>A.O.R.N. Ospedale dei Colli Monaldi-Cotugno-CTO (U.O.C. Oncologia)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>1</th>       <td>National Cancer Institute</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>2</th>       <td>A.O.R.N. Ospedale dei Colli Monaldi-Cotugno-CTO (U.O.C. Anestesia Rianimazione e terapia intensiva)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>3</th>       <td>A.O.R.N. Ospedale dei Colli Monaldi-Cotugno-CTO (U.O.C. Malattie Infettive ad indirizzo respiratorio)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>4</th>       <td>University of Naples Federico II</td>       <td>Other: pregnant women with laboratory-confirmed 2019-n-CoV</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_10009ebedb224878a84adc043e7f6ff8.setContent(html_85f7a15ee1aa4e51b9eb8ef46d048a13);
+        
+
+        circle_2f57efd932b84478b0dafdb8a6533671.bindPopup(popup_10009ebedb224878a84adc043e7f6ff8)
+        ;
+
+        
+    
+    
+            var circle_ca9fd8e85b1f4792b1533cc47a01dcdf = L.circle(
+                [43.9098114, 12.9131228],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_2439fe694e1b480b83e2958f676c0155 = L.popup({"maxWidth": 700});
+
+        
+            var html_6fa77f816fa94946b44cba4d80ced1cc = $(`<div id="html_6fa77f816fa94946b44cba4d80ced1cc" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>A.O. Ospedali Riuniti Marche Nord - Presidio Ospedaliero San Salvatore di Pesaro (UOC Pronto Soccorso e Medicina d'Urgenza)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_2439fe694e1b480b83e2958f676c0155.setContent(html_6fa77f816fa94946b44cba4d80ced1cc);
+        
+
+        circle_ca9fd8e85b1f4792b1533cc47a01dcdf.bindPopup(popup_2439fe694e1b480b83e2958f676c0155)
+        ;
+
+        
+    
+    
+            var circle_d13a7ba8b9084286a67de3d78e44b5f8 = L.circle(
+                [40.822643, 14.1219109],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_4fa42336951c4c60adce457bb48e8438 = L.popup({"maxWidth": 700});
+
+        
+            var html_77e868590543408780420a1708f66412 = $(`<div id="html_77e868590543408780420a1708f66412" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Denominazione: UOC di Medicina e Chirurgia d'Accettazione e d'Urgenza dell'Ospedale Santa Maria delle Grazie di Pozzuoli</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_4fa42336951c4c60adce457bb48e8438.setContent(html_77e868590543408780420a1708f66412);
+        
+
+        circle_d13a7ba8b9084286a67de3d78e44b5f8.bindPopup(popup_4fa42336951c4c60adce457bb48e8438)
+        ;
+
+        
+    
+    
+            var circle_de3da1adaaf848f78fb681f520025604 = L.circle(
+                [44.364060699999996, 12.059009490863945],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_be2199396cb543beb98548e199d2e6eb = L.popup({"maxWidth": 700});
+
+        
+            var html_d1e83815031248bab8c6c91f73423f20 = $(`<div id="html_d1e83815031248bab8c6c91f73423f20" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Ospedale Santa Maria delle Croci</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_be2199396cb543beb98548e199d2e6eb.setContent(html_d1e83815031248bab8c6c91f73423f20);
+        
+
+        circle_de3da1adaaf848f78fb681f520025604.bindPopup(popup_be2199396cb543beb98548e199d2e6eb)
+        ;
+
+        
+    
+    
+            var circle_9b6ae609d85b4fff86d53176ad064f1a = L.circle(
+                [38.1035389, 15.6397556],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_a927fc74f85f432b9168ce3e214b19fd = L.popup({"maxWidth": 700});
+
+        
+            var html_09939b7ae0ca4eeaaf5ff6ca2354b9bc = $(`<div id="html_09939b7ae0ca4eeaaf5ff6ca2354b9bc" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Grande Ospedale Metropolitano</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_a927fc74f85f432b9168ce3e214b19fd.setContent(html_09939b7ae0ca4eeaaf5ff6ca2354b9bc);
+        
+
+        circle_9b6ae609d85b4fff86d53176ad064f1a.bindPopup(popup_a927fc74f85f432b9168ce3e214b19fd)
+        ;
+
+        
+    
+    
+            var circle_a1f2fffdd7374e2fb5451399dbc69d9c = L.circle(
+                [43.9470982, 12.630768610516004],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_e8157234b20642fda3af8de7cd8b9323 = L.popup({"maxWidth": 700});
+
+        
+            var html_652e561cadbe48d9b1b22602ff16e132 = $(`<div id="html_652e561cadbe48d9b1b22602ff16e132" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Ospedale Infermi</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_e8157234b20642fda3af8de7cd8b9323.setContent(html_652e561cadbe48d9b1b22602ff16e132);
+        
+
+        circle_a1f2fffdd7374e2fb5451399dbc69d9c.bindPopup(popup_e8157234b20642fda3af8de7cd8b9323)
+        ;
+
+        
+    
+    
+            var circle_b8a48c6d17f046b0b043e72d277dfa11 = L.circle(
+                [41.8933203, 12.4829321],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_b8a5c5f84a2b465689d491ba5473b247 = L.popup({"maxWidth": 700});
+
+        
+            var html_8fa46c29f683449aa5e45174e605d660 = $(`<div id="html_8fa46c29f683449aa5e45174e605d660" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Policlinico Gemelli (U.O.C. Dipartimento Scienze di Laboratorio e Infettivologiche)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_b8a5c5f84a2b465689d491ba5473b247.setContent(html_8fa46c29f683449aa5e45174e605d660);
+        
+
+        circle_b8a48c6d17f046b0b043e72d277dfa11.bindPopup(popup_b8a5c5f84a2b465689d491ba5473b247)
+        ;
+
+        
+    
+    
+            var circle_c4659d66012c45fd8df7e7d6ab98cb1e = L.circle(
+                [45.83971285, 8.754157594917665],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_4a1768cb4f0444a2992a159bfd6ac1f5 = L.popup({"maxWidth": 700});
+
+        
+            var html_781e17f402324f60ace67cef22984c84 = $(`<div id="html_781e17f402324f60ace67cef22984c84" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>ASST Sette Laghi (Dipartimento di Medicina Interna)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>1</th>       <td>ASST Sette Laghi (Dipartimento Emergenze ed Urgenze)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>2</th>       <td>ASST Sette Laghi (U.O.C. Anestesia e Rianimazione Neurochirurgica e Generale)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>3</th>       <td>ASST Sette Laghi (U.O.C. Malattie Infettive e Tropicali)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_4a1768cb4f0444a2992a159bfd6ac1f5.setContent(html_781e17f402324f60ace67cef22984c84);
+        
+
+        circle_c4659d66012c45fd8df7e7d6ab98cb1e.bindPopup(popup_4a1768cb4f0444a2992a159bfd6ac1f5)
+        ;
+
+        
+    
+    
+            var circle_5184b6eb16694601ad1f126d75894ca6 = L.circle(
+                [45.4384958, 10.9924122],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_7810429030d747499bd3614ed11385dd = L.popup({"maxWidth": 700});
+
+        
+            var html_b66265b0875541fba4ab2071a45575b7 = $(`<div id="html_b66265b0875541fba4ab2071a45575b7" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>A.O.U. Integrata di Verona (Dip. Malattie Infettive)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>     <tr>       <th>1</th>       <td>Ospedale Magalini (U.O. Malattie Infettive)</td>       <td>Drug: Tocilizumab Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_7810429030d747499bd3614ed11385dd.setContent(html_b66265b0875541fba4ab2071a45575b7);
+        
+
+        circle_5184b6eb16694601ad1f126d75894ca6.bindPopup(popup_7810429030d747499bd3614ed11385dd)
+        ;
+
+        
+    
+    
+            var circle_b1669cd74d1943d9839fa0c94dba9ed5 = L.circle(
+                [30.5951051, 114.2999353],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 120000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_b84ab2b142834280ad45a9d003c9fd92 = L.popup({"maxWidth": 700});
+
+        
+            var html_e6adbcf3f9ff4a709e5fc5c734df8086 = $(`<div id="html_e6adbcf3f9ff4a709e5fc5c734df8086" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Renmin Hospital of Wuhan University</td>       <td>Other: nCapp, a cell phone-based auto-diagnosis system</td>     </tr>     <tr>       <th>1</th>       <td>Department and Institute of Infectious Disease</td>       <td>Drug: Sildenafil citrate tablets</td>     </tr>     <tr>       <th>2</th>       <td>Wuhan Huoshenshan Hospital</td>       <td>Biological: MSCs|Biological: Saline containing 1% Human serum albumin（solution of MSC）</td>     </tr>     <tr>       <th>3</th>       <td>Hubei province hospital of integrated Chinese &amp; Western Medicine</td>       <td>Drug: Methylprednisolone</td>     </tr>     <tr>       <th>4</th>       <td>Renmin Hospital of Wuhan University</td>       <td>Drug: Methylprednisolone</td>     </tr>     <tr>       <th>5</th>       <td>Tianyou Hospital Affiliated to Wuhan University of science and technology</td>       <td>Drug: Methylprednisolone</td>     </tr>     <tr>       <th>6</th>       <td>Union Hospital Affiliated to Tongji Medical College of Huazhong University of science and technology</td>       <td>Drug: Methylprednisolone</td>     </tr>     <tr>       <th>7</th>       <td>Department and Institute of Infectious Disease</td>       <td>Drug: Abidol hydrochloride|Drug: Oseltamivir|Drug: Lopinavir/ritonavir</td>     </tr>     <tr>       <th>8</th>       <td>Department and Institute of Infectious Disease</td>       <td>Drug: Abidol hydrochloride|Drug: Abidol Hydrochloride combined with Interferon atomization</td>     </tr>     <tr>       <th>9</th>       <td>Department and Institute of Infectious Disease</td>       <td>Drug: ASC09F+Oseltamivir|Drug: Ritonavir+Oseltamivir|Drug: Oseltamivir</td>     </tr>     <tr>       <th>10</th>       <td>Department and Institute of Infectious Disease</td>       <td>Drug: Methylprednisolone</td>     </tr>     <tr>       <th>11</th>       <td>Cancer Hospital Union Hospital Tongji Medical College Huazhong University of Science and Technology</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>     <tr>       <th>12</th>       <td>Ezhou Central Hospital</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>     <tr>       <th>13</th>       <td>Huoshenshan Hospital of Wuhan</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>     <tr>       <th>14</th>       <td>Jinyintan Hospital of Wuhan</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>     <tr>       <th>15</th>       <td>Tongji Hospital of Huazhong University of Science and Technology</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>     <tr>       <th>16</th>       <td>West Hospital Union Hospital Huazhong University of Science and Technology</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>     <tr>       <th>17</th>       <td>Wuhan Pulmonary Hospital</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>     <tr>       <th>18</th>       <td>Zhongnan Hospital of Wuhan University</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>     <tr>       <th>19</th>       <td>Tongji Hospital</td>       <td>Drug: Tocilizumab|Other: Standard of care|Procedure: Continuous renal replacement therapy</td>     </tr>     <tr>       <th>20</th>       <td>Maternal and Child Health Hospital of Hubei Province</td>       <td>N/A</td>     </tr>     <tr>       <th>21</th>       <td>Zhongnan Hospital of Wuhan University</td>       <td>Biological: UC-MSCs</td>     </tr>     <tr>       <th>22</th>       <td>Zhongnan Hospital of Wuhan University</td>       <td>Drug: VC|Drug: Sterile Water for Injection</td>     </tr>     <tr>       <th>23</th>       <td>Tongji Hospital,Tongji Medical College Affiliated,Huazhong University of Science &amp; Technology</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_b84ab2b142834280ad45a9d003c9fd92.setContent(html_e6adbcf3f9ff4a709e5fc5c734df8086);
+        
+
+        circle_b1669cd74d1943d9839fa0c94dba9ed5.bindPopup(popup_b84ab2b142834280ad45a9d003c9fd92)
+        ;
+
+        
+    
+    
+            var circle_34727a351a1e410eaaef5f2e70f365f8 = L.circle(
+                [40.7127281, -74.0060152],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_6f906393a85341f0ae7d8f0ad1002b49 = L.popup({"maxWidth": 700});
+
+        
+            var html_05d2546ec90644e98c3d8c9b1507d7f3 = $(`<div id="html_05d2546ec90644e98c3d8c9b1507d7f3" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Regeneron Study Site</td>       <td>Drug: Sarilumab|Drug: Placebo</td>     </tr>     <tr>       <th>1</th>       <td>Montefiore Medical Center - Infectious Diseases</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_6f906393a85341f0ae7d8f0ad1002b49.setContent(html_05d2546ec90644e98c3d8c9b1507d7f3);
+        
+
+        circle_34727a351a1e410eaaef5f2e70f365f8.bindPopup(popup_6f906393a85341f0ae7d8f0ad1002b49)
+        ;
+
+        
+    
+    
+            var circle_0e2765c98aa5466092985f02ec5337c3 = L.circle(
+                [22.555454, 114.0543297],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_850cf9ac16d24a26964e8d656879e1fb = L.popup({"maxWidth": 700});
+
+        
+            var html_7c69277b4f2e46c4be26cf0b52daffc7 = $(`<div id="html_7c69277b4f2e46c4be26cf0b52daffc7" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Shenzhen Geno-immune Medical Institute</td>       <td>Biological: Pathogen-specific aAPC</td>     </tr>     <tr>       <th>1</th>       <td>Shenzhen Geno-immune Medical Institute</td>       <td>Biological: Injection and infusion of LV-SMENP-DC vaccine and antigen-specific CTLs</td>     </tr>     <tr>       <th>2</th>       <td>Shenzhen Second People's Hospital</td>       <td>Biological: Injection and infusion of LV-SMENP-DC vaccine and antigen-specific CTLs</td>     </tr>     <tr>       <th>3</th>       <td>Shenzhen Third People's Hospital</td>       <td>Biological: Injection and infusion of LV-SMENP-DC vaccine and antigen-specific CTLs</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_850cf9ac16d24a26964e8d656879e1fb.setContent(html_7c69277b4f2e46c4be26cf0b52daffc7);
+        
+
+        circle_0e2765c98aa5466092985f02ec5337c3.bindPopup(popup_850cf9ac16d24a26964e8d656879e1fb)
+        ;
+
+        
+    
+    
+            var circle_6ee67038863143018c9b0fc682143b5b = L.circle(
+                [37.5666791, 126.9782914],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_93b870c617a0410984b3d176870abdea = L.popup({"maxWidth": 700});
+
+        
+            var html_5abd55afd46445e081d76270efecff5d = $(`<div id="html_5abd55afd46445e081d76270efecff5d" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Asan Medical Center</td>       <td>Drug: Lopinavir/ritonavir|Drug: Hydroxychloroquine sulfate</td>     </tr>     <tr>       <th>1</th>       <td>Seoul Medical Center</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>2</th>       <td>National Medical Center</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>3</th>       <td>Seoul Medical Center</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>4</th>       <td>National Medical Center</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>5</th>       <td>Seoul National University Hospital</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_93b870c617a0410984b3d176870abdea.setContent(html_5abd55afd46445e081d76270efecff5d);
+        
+
+        circle_6ee67038863143018c9b0fc682143b5b.bindPopup(popup_93b870c617a0410984b3d176870abdea)
+        ;
+
+        
+    
+    
+            var circle_ccdd7673c6414024b9991f7559f8ccf7 = L.circle(
+                [33.6170092, -117.9294401],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_d6d02a31c5f74e1aa5ee233281cc2d2e = L.popup({"maxWidth": 700});
+
+        
+            var html_15e649e6b6a248adafc0e009e60f00dc = $(`<div id="html_15e649e6b6a248adafc0e009e60f00dc" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Hoag Memorial Hospital Presbyterian</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>1</th>       <td>Hoag Memorial Hospital Presbyterian</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_d6d02a31c5f74e1aa5ee233281cc2d2e.setContent(html_15e649e6b6a248adafc0e009e60f00dc);
+        
+
+        circle_ccdd7673c6414024b9991f7559f8ccf7.bindPopup(popup_d6d02a31c5f74e1aa5ee233281cc2d2e)
+        ;
+
+        
+    
+    
+            var circle_15b318db6b274188a50bb41486f13588 = L.circle(
+                [37.427467, -122.1702445],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_7383f59288224bcb9ecbf113343cecaa = L.popup({"maxWidth": 700});
+
+        
+            var html_ddf2c835b81b432dafa7626e08173010 = $(`<div id="html_ddf2c835b81b432dafa7626e08173010" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Stanford Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>1</th>       <td>Stanford Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_7383f59288224bcb9ecbf113343cecaa.setContent(html_ddf2c835b81b432dafa7626e08173010);
+        
+
+        circle_15b318db6b274188a50bb41486f13588.bindPopup(popup_7383f59288224bcb9ecbf113343cecaa)
+        ;
+
+        
+    
+    
+            var circle_88cab93bde6d4a6c9cbb602a92bc6acc = L.circle(
+                [47.9673056, -122.2013998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_de23451f222d443dbe323f27f8c37636 = L.popup({"maxWidth": 700});
+
+        
+            var html_310b10a0ea6a473baefb2f2fce6fbd4d = $(`<div id="html_310b10a0ea6a473baefb2f2fce6fbd4d" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Providence Regional Medical Center Everett</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>1</th>       <td>Providence Medical Research Center</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_de23451f222d443dbe323f27f8c37636.setContent(html_310b10a0ea6a473baefb2f2fce6fbd4d);
+        
+
+        circle_88cab93bde6d4a6c9cbb602a92bc6acc.bindPopup(popup_de23451f222d443dbe323f27f8c37636)
+        ;
+
+        
+    
+    
+            var circle_4878daa562f148f99f4c45fee8c44f26 = L.circle(
+                [47.6038321, -122.3300624],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_2383f04fd30b4708af1fcd37fcca2997 = L.popup({"maxWidth": 700});
+
+        
+            var html_f0074217353244f2970d1dae9c9949d1 = $(`<div id="html_f0074217353244f2970d1dae9c9949d1" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Swedish Center for Comprehensive Care</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>1</th>       <td>Swedish Center for Comprehensive Care</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>2</th>       <td>The University of Washington - Virology Research Clinic</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>     <tr>       <th>3</th>       <td>Kaiser Permanente Washington Health Research Institute - Vaccines and Infectious Diseases</td>       <td>Biological: mRNA-1273</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_2383f04fd30b4708af1fcd37fcca2997.setContent(html_f0074217353244f2970d1dae9c9949d1);
+        
+
+        circle_4878daa562f148f99f4c45fee8c44f26.bindPopup(popup_2383f04fd30b4708af1fcd37fcca2997)
+        ;
+
+        
+    
+    
+            var circle_79bd8f45fea44b9993fbd44fcbff376f = L.circle(
+                [22.2793278, 114.1628131],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_c1fd6bb91d844e7b8e1ef47c2d340667 = L.popup({"maxWidth": 700});
+
+        
+            var html_a6cdde0efb1240f4ab5cda7688b85277 = $(`<div id="html_a6cdde0efb1240f4ab5cda7688b85277" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Prince of Wales Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>1</th>       <td>Princess Margaret Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>2</th>       <td>Queen Mary Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>3</th>       <td>Prince of Wales Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>4</th>       <td>Princess Margaret Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>5</th>       <td>Queen Mary Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>6</th>       <td>University of Hong Kong</td>       <td>Drug: Lopinavir/ritonavir|Drug: Ribavirin|Drug: Interferon Beta-1B</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_c1fd6bb91d844e7b8e1ef47c2d340667.setContent(html_a6cdde0efb1240f4ab5cda7688b85277);
+        
+
+        circle_79bd8f45fea44b9993fbd44fcbff376f.bindPopup(popup_c1fd6bb91d844e7b8e1ef47c2d340667)
+        ;
+
+        
+    
+    
+            var circle_e4868c7ec4f14a34a54323da42601d3d = L.circle(
+                [35.8713, 128.6018],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_60f43541d40c43d7b73a071a31f6e1cb = L.popup({"maxWidth": 700});
+
+        
+            var html_e6690cbf4b674715abe2869014f2ffb6 = $(`<div id="html_e6690cbf4b674715abe2869014f2ffb6" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Kyungpook National University Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>1</th>       <td>Kyungpook National University Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_60f43541d40c43d7b73a071a31f6e1cb.setContent(html_e6690cbf4b674715abe2869014f2ffb6);
+        
+
+        circle_e4868c7ec4f14a34a54323da42601d3d.bindPopup(popup_60f43541d40c43d7b73a071a31f6e1cb)
+        ;
+
+        
+    
+    
+            var circle_9db7abe477fa40bf94ba4f6a7f16f663 = L.circle(
+                [1.357107, 103.8194992],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_24ab2be1726b483ca233288ea08de167 = L.popup({"maxWidth": 700});
+
+        
+            var html_48e1fd6055974ce6b55ede8663c78f0f = $(`<div id="html_48e1fd6055974ce6b55ede8663c78f0f" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>National University Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>1</th>       <td>Singapore General Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>2</th>       <td>National Centre for Infectious Diseases</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>3</th>       <td>National University Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>4</th>       <td>Singapore General Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>5</th>       <td>National Centre for Infectious Diseases</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>6</th>       <td>National Centre for Infectious Diseases (NCID)</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>     <tr>       <th>7</th>       <td>Yale-NUS College</td>       <td>Behavioral: Use of social media during COVID-19</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_24ab2be1726b483ca233288ea08de167.setContent(html_48e1fd6055974ce6b55ede8663c78f0f);
+        
+
+        circle_9db7abe477fa40bf94ba4f6a7f16f663.bindPopup(popup_24ab2be1726b483ca233288ea08de167)
+        ;
+
+        
+    
+    
+            var circle_3807c5df84b540cd8f29fe36c25e87f5 = L.circle(
+                [25.0375198, 121.5636796],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_011e8bafe09b42a6948b7411dcc39330 = L.popup({"maxWidth": 700});
+
+        
+            var html_f0805d9e70fc46b9bf95921919d377fc = $(`<div id="html_f0805d9e70fc46b9bf95921919d377fc" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>National Taiwan University Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>     <tr>       <th>1</th>       <td>National Taiwan University Hospital</td>       <td>Drug: Remdesivir|Drug: Standard of Care</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_011e8bafe09b42a6948b7411dcc39330.setContent(html_f0805d9e70fc46b9bf95921919d377fc);
+        
+
+        circle_3807c5df84b540cd8f29fe36c25e87f5.bindPopup(popup_011e8bafe09b42a6948b7411dcc39330)
+        ;
+
+        
+    
+    
+            var circle_32e97d0677454a16b57bf2cbbfc33496 = L.circle(
+                [31.9515694, 35.9239625],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_2bd3eaacb7264b8eb1822089cbd63268 = L.popup({"maxWidth": 700});
+
+        
+            var html_3e94234b35dd468aab0fd4df15d61490 = $(`<div id="html_3e94234b35dd468aab0fd4df15d61490" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Stem Cells Arabia</td>       <td>Biological: WJ-MSCs</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_2bd3eaacb7264b8eb1822089cbd63268.setContent(html_3e94234b35dd468aab0fd4df15d61490);
+        
+
+        circle_32e97d0677454a16b57bf2cbbfc33496.bindPopup(popup_2bd3eaacb7264b8eb1822089cbd63268)
+        ;
+
+        
+    
+    
+            var circle_ba18c857f55545baa785df85f8295b3a = L.circle(
+                [27.9957951, 116.353245],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_cbda541f50d5449da38e9e8b1867f5a7 = L.popup({"maxWidth": 700});
+
+        
+            var html_6b82c6dabae94333b2682cdd22837dcf = $(`<div id="html_6b82c6dabae94333b2682cdd22837dcf" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Wan-Jin Chen</td>       <td>Drug: Fingolimod 0.5 mg</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_cbda541f50d5449da38e9e8b1867f5a7.setContent(html_6b82c6dabae94333b2682cdd22837dcf);
+        
+
+        circle_ba18c857f55545baa785df85f8295b3a.bindPopup(popup_cbda541f50d5449da38e9e8b1867f5a7)
+        ;
+
+        
+    
+    
+            var circle_b50132c568114ac9bbe9aed16cbe6a94 = L.circle(
+                [30.7031196, 111.2750181],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_1efac297cd4942b99520c3e4de5e2e32 = L.popup({"maxWidth": 700});
+
+        
+            var html_ed16d251f0cd447f9bd1da33e019028b = $(`<div id="html_ed16d251f0cd447f9bd1da33e019028b" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Yichang first people's Hospital</td>       <td>Drug: Methylprednisolone</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_1efac297cd4942b99520c3e4de5e2e32.setContent(html_ed16d251f0cd447f9bd1da33e019028b);
+        
+
+        circle_b50132c568114ac9bbe9aed16cbe6a94.bindPopup(popup_1efac297cd4942b99520c3e4de5e2e32)
+        ;
+
+        
+    
+    
+            var circle_4494a5de972742efa27520a2e3e68ae4 = L.circle(
+                [48.8566969, 2.3514616],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_dfc6b7990cbf45e2a4e4bc2b443f7625 = L.popup({"maxWidth": 700});
+
+        
+            var html_6ced9238da054fa198dddb05a27e11aa = $(`<div id="html_6ced9238da054fa198dddb05a27e11aa" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Hopital Pitie Salpetriere</td>       <td>Other: blood sample</td>     </tr>     <tr>       <th>1</th>       <td>CIC 1425</td>       <td>Biological: 2019-nCoV PCR</td>     </tr>     <tr>       <th>2</th>       <td>APHP La Pitie Salpetriere</td>       <td>N/A</td>     </tr>     <tr>       <th>3</th>       <td>APHP Bichat</td>       <td>N/A</td>     </tr>     <tr>       <th>4</th>       <td>APHP Bichat</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_dfc6b7990cbf45e2a4e4bc2b443f7625.setContent(html_6ced9238da054fa198dddb05a27e11aa);
+        
+
+        circle_4494a5de972742efa27520a2e3e68ae4.bindPopup(popup_dfc6b7990cbf45e2a4e4bc2b443f7625)
+        ;
+
+        
+    
+    
+            var circle_2a53909121954ed5932b08d11436dd16 = L.circle(
+                [30.5951051, 114.2999353],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_5a8b02c696e04e519bed433256b06c6b = L.popup({"maxWidth": 700});
+
+        
+            var html_ec75269f83f94e34a77c431f9b7de24a = $(`<div id="html_ec75269f83f94e34a77c431f9b7de24a" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Jin Yin-tan hospital</td>       <td>Drug: Remdesivir|Drug: Remdesivir placebo</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_5a8b02c696e04e519bed433256b06c6b.setContent(html_ec75269f83f94e34a77c431f9b7de24a);
+        
+
+        circle_2a53909121954ed5932b08d11436dd16.bindPopup(popup_5a8b02c696e04e519bed433256b06c6b)
+        ;
+
+        
+    
+    
+            var circle_edd8eb2c30894e9e8f7a6444615357c7 = L.circle(
+                [39.906217, 116.3912757],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_c34d4b5759fa46e58e8b2ed8cc51b808 = L.popup({"maxWidth": 700});
+
+        
+            var html_287e62a747b743b499a4d604fe991d13 = $(`<div id="html_287e62a747b743b499a4d604fe991d13" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Beijing 302 Military Hospital of China</td>       <td>Biological: MSCs</td>     </tr>     <tr>       <th>1</th>       <td>Guiqiang Wang</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>     <tr>       <th>2</th>       <td>Peking University First Hospital</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>     <tr>       <th>3</th>       <td>Beijing Tsinghua Changgung Hospital</td>       <td>Other: mobile internet survey on self-test</td>     </tr>     <tr>       <th>4</th>       <td>Bin Cao</td>       <td>Drug: Remdesivir|Drug: Remdesivir placebo</td>     </tr>     <tr>       <th>5</th>       <td>Department of Hepatology Division 2</td>       <td>Diagnostic Test: Recombinase aided amplification (RAA) assay</td>     </tr>     <tr>       <th>6</th>       <td>The Fifth Medical Center</td>       <td>Drug: Conventional medicines (Oxygen therapy, alfa interferon via aerosol inhalation, and lopinavir/ritonavir) and Traditional Chinese Medicines (TCMs) granules|Drug: Conventional medicines (Oxygen therapy, alfa interferon via aerosol inhalation, and lopinavir/ritonavir)</td>     </tr>     <tr>       <th>7</th>       <td>Medical ICU</td>       <td>Drug: methylprednisolone therapy|Other: Standard care</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_c34d4b5759fa46e58e8b2ed8cc51b808.setContent(html_287e62a747b743b499a4d604fe991d13);
+        
+
+        circle_edd8eb2c30894e9e8f7a6444615357c7.bindPopup(popup_c34d4b5759fa46e58e8b2ed8cc51b808)
+        ;
+
+        
+    
+    
+            var circle_7d5049ca12b94484a446571bd8396aad = L.circle(
+                [31.2322758, 121.4692071],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_16163718f5e5422ab2701a9d9ece7a55 = L.popup({"maxWidth": 700});
+
+        
+            var html_7e708d500ac44ef197aae2103152bf7c = $(`<div id="html_7e708d500ac44ef197aae2103152bf7c" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Shuguang Hospital</td>       <td>Drug: N-acetylcysteine+ Fuzheng Huayu Tablet|Drug: N-acetylcysteine+Placebo</td>     </tr>     <tr>       <th>1</th>       <td>Children Hospital of Fudan University</td>       <td>N/A</td>     </tr>     <tr>       <th>2</th>       <td>Shanghai Public Health Clinical Center</td>       <td>N/A</td>     </tr>     <tr>       <th>3</th>       <td>Shanghai Public Health Clinical Center</td>       <td>Drug: Darunavir and Cobicistat</td>     </tr>     <tr>       <th>4</th>       <td>Shanghai Public Health Clinical Center</td>       <td>Drug: Darunavir and Cobicistat</td>     </tr>     <tr>       <th>5</th>       <td>Shanghai Public Health Clinical Center</td>       <td>Drug: Hydroxychloroquine</td>     </tr>     <tr>       <th>6</th>       <td>Shanghai Public Health Clinical Center</td>       <td>Drug: Hydroxychloroquine</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_16163718f5e5422ab2701a9d9ece7a55.setContent(html_7e708d500ac44ef197aae2103152bf7c);
+        
+
+        circle_7d5049ca12b94484a446571bd8396aad.bindPopup(popup_16163718f5e5422ab2701a9d9ece7a55)
+        ;
+
+        
+    
+    
+            var circle_052b6d2629a0475893e96f03a7c0477a = L.circle(
+                [31.75152435, 117.33189367636766],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_e12cfb5f7eb543b9849221187d77f0c4 = L.popup({"maxWidth": 700});
+
+        
+            var html_458ea0b242a3468ab0346bd8372381d3 = $(`<div id="html_458ea0b242a3468ab0346bd8372381d3" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Anhui Medical University Affiliated First Hospital</td>       <td>Drug: Favipiravir Combined With Tocilizumab|Drug: Favipiravir|Drug: Tocilizumab</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_e12cfb5f7eb543b9849221187d77f0c4.setContent(html_458ea0b242a3468ab0346bd8372381d3);
+        
+
+        circle_052b6d2629a0475893e96f03a7c0477a.bindPopup(popup_e12cfb5f7eb543b9849221187d77f0c4)
+        ;
+
+        
+    
+    
+            var circle_353f3d194dde48ddb5aa7a936ad6f43e = L.circle(
+                [59.8586126, 17.6387436],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_9e9bb24dde564415be4647d228034a00 = L.popup({"maxWidth": 700});
+
+        
+            var html_888f58a07c3a4c5ba0256371e5b77d16 = $(`<div id="html_888f58a07c3a4c5ba0256371e5b77d16" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Uppsala University Hospital</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_9e9bb24dde564415be4647d228034a00.setContent(html_888f58a07c3a4c5ba0256371e5b77d16);
+        
+
+        circle_353f3d194dde48ddb5aa7a936ad6f43e.bindPopup(popup_9e9bb24dde564415be4647d228034a00)
+        ;
+
+        
+    
+    
+            var circle_25c2d8f2857e44df9e466e3a7c7de83e = L.circle(
+                [34.7591877, 113.6524076],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_6c7c8ed8cb134a349a631fa7f2c3f64a = L.popup({"maxWidth": 700});
+
+        
+            var html_b55d9bebdfc34a8d8ea981510f6fa1f5 = $(`<div id="html_b55d9bebdfc34a8d8ea981510f6fa1f5" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Henan Provincial People's Hospital</td>       <td>Other: oxygen treatment</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_6c7c8ed8cb134a349a631fa7f2c3f64a.setContent(html_b55d9bebdfc34a8d8ea981510f6fa1f5);
+        
+
+        circle_25c2d8f2857e44df9e466e3a7c7de83e.bindPopup(popup_6c7c8ed8cb134a349a631fa7f2c3f64a)
+        ;
+
+        
+    
+    
+            var circle_4823281b2ba04ec9bb04e40b40a4821f = L.circle(
+                [47.1615341, 27.5836142],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_96da824491574f479895def754e3093a = L.popup({"maxWidth": 700});
+
+        
+            var html_cbd886b09d314e75bbefd16c9629952c = $(`<div id="html_cbd886b09d314e75bbefd16c9629952c" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>University of Medicine and Pharmacy Gr T Popa</td>       <td>Diagnostic Test: Scanning Chest X-rays and performing AI algorithms on images</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_96da824491574f479895def754e3093a.setContent(html_cbd886b09d314e75bbefd16c9629952c);
+        
+
+        circle_4823281b2ba04ec9bb04e40b40a4821f.bindPopup(popup_96da824491574f479895def754e3093a)
+        ;
+
+        
+    
+    
+            var circle_a2603b7264fb45549503b9beb994e6a2 = L.circle(
+                [36.6507007, 117.1140042],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_1a96757a3630486b9f08e1a36215fe98 = L.popup({"maxWidth": 700});
+
+        
+            var html_b317a499b8b2400295201f682cd0186b = $(`<div id="html_b317a499b8b2400295201f682cd0186b" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Qilu Hospital of Shandong University</td>       <td>Drug: Bevacizumab Injection</td>     </tr>     <tr>       <th>1</th>       <td>Shandong University Qilu Hospital</td>       <td>N/A</td>     </tr>     <tr>       <th>2</th>       <td>Jinan Central Hospital</td>       <td>N/A</td>     </tr>     <tr>       <th>3</th>       <td>First Hospital Affiliated with Shandong First Medical University</td>       <td>N/A</td>     </tr>     <tr>       <th>4</th>       <td>Shandong Provincial Hospital</td>       <td>N/A</td>     </tr>     <tr>       <th>5</th>       <td>The Second Hospital of Shandong University</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_1a96757a3630486b9f08e1a36215fe98.setContent(html_b317a499b8b2400295201f682cd0186b);
+        
+
+        circle_a2603b7264fb45549503b9beb994e6a2.bindPopup(popup_1a96757a3630486b9f08e1a36215fe98)
+        ;
+
+        
+    
+    
+            var circle_1520bccade9540ac8776947580a25194 = L.circle(
+                [28.6792695, 115.8885987],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_1d6f1851534c4b8b98aedff5fcb50b26 = L.popup({"maxWidth": 700});
+
+        
+            var html_3da70758a95543a4837cef3a34d5ed04 = $(`<div id="html_3da70758a95543a4837cef3a34d5ed04" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>The Ninth Hospital of Nanchang</td>       <td>Drug: Ganovo+ritonavir+/-Interferon atomization|Drug: Long acting interferon|Drug: Recombinant cytokine gene-derived protein|Drug: Lopinavir+ritonavir|Drug: Chinese medicines +interferon atomization</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_1d6f1851534c4b8b98aedff5fcb50b26.setContent(html_3da70758a95543a4837cef3a34d5ed04);
+        
+
+        circle_1520bccade9540ac8776947580a25194.bindPopup(popup_1d6f1851534c4b8b98aedff5fcb50b26)
+        ;
+
+        
+    
+    
+            var circle_7c60751c3672458ca668b12ac56005ec = L.circle(
+                [32.83259, -117.2716839],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_c34ea1bdfe5c4a3bbb3de8e15c22df95 = L.popup({"maxWidth": 700});
+
+        
+            var html_a0af14424c5143c4a5bac005c8f77f88 = $(`<div id="html_a0af14424c5143c4a5bac005c8f77f88" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>University of California San Diego Health - Jacobs Medical Center</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_c34ea1bdfe5c4a3bbb3de8e15c22df95.setContent(html_a0af14424c5143c4a5bac005c8f77f88);
+        
+
+        circle_7c60751c3672458ca668b12ac56005ec.bindPopup(popup_c34ea1bdfe5c4a3bbb3de8e15c22df95)
+        ;
+
+        
+    
+    
+            var circle_19c326fc4c3e4f7f80de278f2cb56f7c = L.circle(
+                [33.7500378, -117.8704931],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_62a505b48a83410192f4134403a0b0d1 = L.popup({"maxWidth": 700});
+
+        
+            var html_914ecaaafe4c461889adfb41c5a969c5 = $(`<div id="html_914ecaaafe4c461889adfb41c5a969c5" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>University of California Irvine Medical Center - Infectious Disease</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_62a505b48a83410192f4134403a0b0d1.setContent(html_914ecaaafe4c461889adfb41c5a969c5);
+        
+
+        circle_19c326fc4c3e4f7f80de278f2cb56f7c.bindPopup(popup_62a505b48a83410192f4134403a0b0d1)
+        ;
+
+        
+    
+    
+            var circle_cac005dee1f4422fbff591820b916413 = L.circle(
+                [38.5815719, -121.4943996],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_7f5fdf88f634475fa89c23aa88061839 = L.popup({"maxWidth": 700});
+
+        
+            var html_9c1e581fd4864717a6f5af895e0c1376 = $(`<div id="html_9c1e581fd4864717a6f5af895e0c1376" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>University of California Davis Medical Center - Internal Medicine - Infectious Disease</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_7f5fdf88f634475fa89c23aa88061839.setContent(html_9c1e581fd4864717a6f5af895e0c1376);
+        
+
+        circle_cac005dee1f4422fbff591820b916413.bindPopup(popup_7f5fdf88f634475fa89c23aa88061839)
+        ;
+
+        
+    
+    
+            var circle_d8565ca1664248ef83d10393b8cd9783 = L.circle(
+                [33.7490987, -84.3901849],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_147525baccef40c39c8e3629ffec1614 = L.popup({"maxWidth": 700});
+
+        
+            var html_0de6d3e0ca694aea964e6f317c1c4b7d = $(`<div id="html_0de6d3e0ca694aea964e6f317c1c4b7d" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Emory Clinic - Investigational Drug Service</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_147525baccef40c39c8e3629ffec1614.setContent(html_0de6d3e0ca694aea964e6f317c1c4b7d);
+        
+
+        circle_d8565ca1664248ef83d10393b8cd9783.bindPopup(popup_147525baccef40c39c8e3629ffec1614)
+        ;
+
+        
+    
+    
+            var circle_2af72d899e644cf4a22ba71b71faf3ee = L.circle(
+                [39.8454163, -88.9524151],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_04189ebc89924d7a8fe6d694b0cbaf61 = L.popup({"maxWidth": 700});
+
+        
+            var html_ee618206ee6142368b0f422003108e42 = $(`<div id="html_ee618206ee6142368b0f422003108e42" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Emory Vaccine Center - The Hope Clinic</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>     <tr>       <th>1</th>       <td>Emory Children's Center - Pediatric Infectious Diseases</td>       <td>Biological: mRNA-1273</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_04189ebc89924d7a8fe6d694b0cbaf61.setContent(html_ee618206ee6142368b0f422003108e42);
+        
+
+        circle_2af72d899e644cf4a22ba71b71faf3ee.bindPopup(popup_04189ebc89924d7a8fe6d694b0cbaf61)
+        ;
+
+        
+    
+    
+            var circle_9c4f859c7a804f8c8bcdd7927aa0bbda = L.circle(
+                [38.9786401, -76.492786],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_4745dd5d8be041eaa9cf43b433f65ce8 = L.popup({"maxWidth": 700});
+
+        
+            var html_9f12c771d0cd4503aee37cac6c547594 = $(`<div id="html_9f12c771d0cd4503aee37cac6c547594" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>University of Maryland School of Medicine - Center for Vaccine Development - Baltimore</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_4745dd5d8be041eaa9cf43b433f65ce8.setContent(html_9f12c771d0cd4503aee37cac6c547594);
+        
+
+        circle_9c4f859c7a804f8c8bcdd7927aa0bbda.bindPopup(popup_4745dd5d8be041eaa9cf43b433f65ce8)
+        ;
+
+        
+    
+    
+            var circle_985bac2c6bad44f9964eea1df1001f88 = L.circle(
+                [39.2908816, -76.610759],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_5e63a70ff2a8408daf3b4a8c1f7fd07f = L.popup({"maxWidth": 700});
+
+        
+            var html_12737c3b342e4a9b94ef29686b2baa0f = $(`<div id="html_12737c3b342e4a9b94ef29686b2baa0f" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Johns Hopkins Hospital - Medicine - Infectious Diseases</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_5e63a70ff2a8408daf3b4a8c1f7fd07f.setContent(html_12737c3b342e4a9b94ef29686b2baa0f);
+        
+
+        circle_985bac2c6bad44f9964eea1df1001f88.bindPopup(popup_5e63a70ff2a8408daf3b4a8c1f7fd07f)
+        ;
+
+        
+    
+    
+            var circle_e5f8a3b3569943b693360babc9ce05fd = L.circle(
+                [38.9819845, -77.12423413116392],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_9771153c297344f3b4615083d8caf7b7 = L.popup({"maxWidth": 700});
+
+        
+            var html_db4d7f3a805e4a20a0033707c5b90868 = $(`<div id="html_db4d7f3a805e4a20a0033707c5b90868" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>National Institutes of Health - Clinical Center</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_9771153c297344f3b4615083d8caf7b7.setContent(html_db4d7f3a805e4a20a0033707c5b90868);
+        
+
+        circle_e5f8a3b3569943b693360babc9ce05fd.bindPopup(popup_9771153c297344f3b4615083d8caf7b7)
+        ;
+
+        
+    
+    
+            var circle_f73ec9d59e364662a62310b9596397af = L.circle(
+                [44.9772995, -93.2654692],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_40ca75c6b3d547359a0e8cbc5daa6086 = L.popup({"maxWidth": 700});
+
+        
+            var html_8f19651b58184c709ea32a5aae64d530 = $(`<div id="html_8f19651b58184c709ea32a5aae64d530" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>University of Minnesota Medical Center</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>     <tr>       <th>1</th>       <td>University of Minnesota</td>       <td>Drug: Hydroxychloroquine|Other: Placebo</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_40ca75c6b3d547359a0e8cbc5daa6086.setContent(html_8f19651b58184c709ea32a5aae64d530);
+        
+
+        circle_f73ec9d59e364662a62310b9596397af.bindPopup(popup_40ca75c6b3d547359a0e8cbc5daa6086)
+        ;
+
+        
+    
+    
+            var circle_f955d8efe7fb4687bc747fee11976588 = L.circle(
+                [38.7604815, -92.5617875],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_9b1a7b6e793a44ba91c7499c185e2af2 = L.popup({"maxWidth": 700});
+
+        
+            var html_4a27b0179074492a9835bd69e608dff1 = $(`<div id="html_4a27b0179074492a9835bd69e608dff1" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Saint Louis University - Center for Vaccine Development</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_9b1a7b6e793a44ba91c7499c185e2af2.setContent(html_4a27b0179074492a9835bd69e608dff1);
+        
+
+        circle_f955d8efe7fb4687bc747fee11976588.bindPopup(popup_9b1a7b6e793a44ba91c7499c185e2af2)
+        ;
+
+        
+    
+    
+            var circle_4c8ffb65e7e24e1eb75d523b99adc8c8 = L.circle(
+                [41.2587459, -95.9383758],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_0c89a13480064f7796167c740f9951bd = L.popup({"maxWidth": 700});
+
+        
+            var html_ff622a499d6e4bf6927bcbb639d0cc5a = $(`<div id="html_ff622a499d6e4bf6927bcbb639d0cc5a" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>University of Nebraska Medical Center - Infectious Diseases</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_0c89a13480064f7796167c740f9951bd.setContent(html_ff622a499d6e4bf6927bcbb639d0cc5a);
+        
+
+        circle_4c8ffb65e7e24e1eb75d523b99adc8c8.bindPopup(popup_0c89a13480064f7796167c740f9951bd)
+        ;
+
+        
+    
+    
+            var circle_2ffb518c24e943db951eab0927a08b75 = L.circle(
+                [29.3872254, -94.992736],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_afd672e6fe1148e4a31f35ddd9ffd8a3 = L.popup({"maxWidth": 700});
+
+        
+            var html_addd4933f49440088d2175d3defca8a7 = $(`<div id="html_addd4933f49440088d2175d3defca8a7" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>University of Texas Medical Branch - Division of Infectious Disease</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_afd672e6fe1148e4a31f35ddd9ffd8a3.setContent(html_addd4933f49440088d2175d3defca8a7);
+        
+
+        circle_2ffb518c24e943db951eab0927a08b75.bindPopup(popup_afd672e6fe1148e4a31f35ddd9ffd8a3)
+        ;
+
+        
+    
+    
+            var circle_4b835e0223a74c3581782caf7844f3d8 = L.circle(
+                [29.7589382, -95.3676974],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_576453b888df46c49ad9ba910d425fb2 = L.popup({"maxWidth": 700});
+
+        
+            var html_bb437c741ba546b0bb0fd032e2006a65 = $(`<div id="html_bb437c741ba546b0bb0fd032e2006a65" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Baylor College of Medicine - Molecular Virology and Microbiology</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_576453b888df46c49ad9ba910d425fb2.setContent(html_bb437c741ba546b0bb0fd032e2006a65);
+        
+
+        circle_4b835e0223a74c3581782caf7844f3d8.bindPopup(popup_576453b888df46c49ad9ba910d425fb2)
+        ;
+
+        
+    
+    
+            var circle_287d801ba01e42d089ee976b006c7696 = L.circle(
+                [47.6859573, -122.1920249],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_6e2b5ed6d2394aaa84f52ba77749bde0 = L.popup({"maxWidth": 700});
+
+        
+            var html_e9056c2d6d784201b46cba812419b036 = $(`<div id="html_e9056c2d6d784201b46cba812419b036" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>EvergreenHealth Infectious Disease Service</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_6e2b5ed6d2394aaa84f52ba77749bde0.setContent(html_e9056c2d6d784201b46cba812419b036);
+        
+
+        circle_287d801ba01e42d089ee976b006c7696.bindPopup(popup_6e2b5ed6d2394aaa84f52ba77749bde0)
+        ;
+
+        
+    
+    
+            var circle_fe9a7142b4e24c38ac1023e73dafa342 = L.circle(
+                [47.6579425, -117.4212265],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_6ef5ed6300294d87bb0abf0916a0e126 = L.popup({"maxWidth": 700});
+
+        
+            var html_368e85257f5f433591ae73b718bbb1e3 = $(`<div id="html_368e85257f5f433591ae73b718bbb1e3" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Providence Sacred Heart Medical Center</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_6ef5ed6300294d87bb0abf0916a0e126.setContent(html_368e85257f5f433591ae73b718bbb1e3);
+        
+
+        circle_fe9a7142b4e24c38ac1023e73dafa342.bindPopup(popup_6ef5ed6300294d87bb0abf0916a0e126)
+        ;
+
+        
+    
+    
+            var circle_9e60b2b847e24a3f931d42ef9b2fc56e = L.circle(
+                [37.3825999, 127.1188],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_fb6f335929f04f6a82c02f612ca89093 = L.popup({"maxWidth": 700});
+
+        
+            var html_f91ea3b949764074bfef8a0a07db2c8a = $(`<div id="html_f91ea3b949764074bfef8a0a07db2c8a" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Seoul National University Bundang Hospital - Division of Infectious Diseases</td>       <td>Other: Placebo|Drug: Remdesivir</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_fb6f335929f04f6a82c02f612ca89093.setContent(html_f91ea3b949764074bfef8a0a07db2c8a);
+        
+
+        circle_9e60b2b847e24a3f931d42ef9b2fc56e.bindPopup(popup_fb6f335929f04f6a82c02f612ca89093)
+        ;
+
+        
+    
+    
+            var circle_c552c9c6bed84a29934547f67410cb5d = L.circle(
+                [23.1301964, 113.2592945],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_b6a25ab8e7e3470280cf2f94af1a455e = L.popup({"maxWidth": 700});
+
+        
+            var html_b5ae84a0829d4664b893ba6504abfc69 = $(`<div id="html_b5ae84a0829d4664b893ba6504abfc69" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>The Third Affiliated Hospital of Sun Yat-sen University</td>       <td>N/A</td>     </tr>     <tr>       <th>1</th>       <td>The Third Affiliated Hospital of Sun Yat-sen University</td>       <td>Other: Comprehensive treatment</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_b6a25ab8e7e3470280cf2f94af1a455e.setContent(html_b5ae84a0829d4664b893ba6504abfc69);
+        
+
+        circle_c552c9c6bed84a29934547f67410cb5d.bindPopup(popup_b6a25ab8e7e3470280cf2f94af1a455e)
+        ;
+
+        
+    
+    
+            var circle_067139b14a58467399edf59bdc50d25c = L.circle(
+                [45.7774951, 127.6646783],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_4638a6e42c5249e0a9ac6208c7d72a52 = L.popup({"maxWidth": 700});
+
+        
+            var html_5641cd335cc84482b5bffe3db9b18838 = $(`<div id="html_5641cd335cc84482b5bffe3db9b18838" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Affiliated Hospital of Binzhou Medical Universty</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_4638a6e42c5249e0a9ac6208c7d72a52.setContent(html_5641cd335cc84482b5bffe3db9b18838);
+        
+
+        circle_067139b14a58467399edf59bdc50d25c.bindPopup(popup_4638a6e42c5249e0a9ac6208c7d72a52)
+        ;
+
+        
+    
+    
+            var circle_bae8ff9b4b994820936e3d4a2371d904 = L.circle(
+                [35.2477266, 115.4464761],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_29057e6a0f104aeeb9be9fb2713fd39d = L.popup({"maxWidth": 700});
+
+        
+            var html_51092b014a684f37adec8727bb5905aa = $(`<div id="html_51092b014a684f37adec8727bb5905aa" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Heze Municipal Hospital</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_29057e6a0f104aeeb9be9fb2713fd39d.setContent(html_51092b014a684f37adec8727bb5905aa);
+        
+
+        circle_bae8ff9b4b994820936e3d4a2371d904.bindPopup(popup_29057e6a0f104aeeb9be9fb2713fd39d)
+        ;
+
+        
+    
+    
+            var circle_8b82eedc362241a494a4e105220d3490 = L.circle(
+                [35.4125047, 116.5849266],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_59de772fd16c46c7a86f873b402ab5f1 = L.popup({"maxWidth": 700});
+
+        
+            var html_9a22712f9fef4d6f9178aadbd13da53c = $(`<div id="html_9a22712f9fef4d6f9178aadbd13da53c" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Jining Hospital of Traditional Chinese Medicine</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_59de772fd16c46c7a86f873b402ab5f1.setContent(html_9a22712f9fef4d6f9178aadbd13da53c);
+        
+
+        circle_8b82eedc362241a494a4e105220d3490.bindPopup(popup_59de772fd16c46c7a86f873b402ab5f1)
+        ;
+
+        
+    
+    
+            var circle_937a41ff6bf145bfaaaa984a30229fb5 = L.circle(
+                [35.9754168, 139.4160114],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_396740ae0b3a4a9c98ee5522344851a3 = L.popup({"maxWidth": 700});
+
+        
+            var html_bbd33a0dcf104ec6b5d2b40716d92a37 = $(`<div id="html_bbd33a0dcf104ec6b5d2b40716d92a37" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Qihe People's Hospital</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_396740ae0b3a4a9c98ee5522344851a3.setContent(html_bbd33a0dcf104ec6b5d2b40716d92a37);
+        
+
+        circle_937a41ff6bf145bfaaaa984a30229fb5.bindPopup(popup_396740ae0b3a4a9c98ee5522344851a3)
+        ;
+
+        
+    
+    
+            var circle_5556155e98b649f7993f5cea1b2f9a5b = L.circle(
+                [36.0638034, 120.3781372],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_053717bb7f8441d796cc2292a420381f = L.popup({"maxWidth": 700});
+
+        
+            var html_998d185c0821427cb0e3abeca9f33667 = $(`<div id="html_998d185c0821427cb0e3abeca9f33667" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Affiliated Hospital of Qingdao University Medical College</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_053717bb7f8441d796cc2292a420381f.setContent(html_998d185c0821427cb0e3abeca9f33667);
+        
+
+        circle_5556155e98b649f7993f5cea1b2f9a5b.bindPopup(popup_053717bb7f8441d796cc2292a420381f)
+        ;
+
+        
+    
+    
+            var circle_333a506d4f164516bb938f37917f5a5f = L.circle(
+                [37.5120997, 122.1152599],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_043fcd5d399b464797634516dda35287 = L.popup({"maxWidth": 700});
+
+        
+            var html_8a1eeb73a44e464ca8ba506a11b5fa5f = $(`<div id="html_8a1eeb73a44e464ca8ba506a11b5fa5f" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Weihai Municipal Hospital</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_043fcd5d399b464797634516dda35287.setContent(html_8a1eeb73a44e464ca8ba506a11b5fa5f);
+        
+
+        circle_333a506d4f164516bb938f37917f5a5f.bindPopup(popup_043fcd5d399b464797634516dda35287)
+        ;
+
+        
+    
+    
+            var circle_20adaf2064db4d6d9965c1ec9a78c849 = L.circle(
+                [36.8047833, 118.0444472],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_c625869863a84765b073f906ae858439 = L.popup({"maxWidth": 700});
+
+        
+            var html_27d852a2833a46a3aac7cc8e0166c209 = $(`<div id="html_27d852a2833a46a3aac7cc8e0166c209" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Central Hospital of Zibo</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_c625869863a84765b073f906ae858439.setContent(html_27d852a2833a46a3aac7cc8e0166c209);
+        
+
+        circle_20adaf2064db4d6d9965c1ec9a78c849.bindPopup(popup_c625869863a84765b073f906ae858439)
+        ;
+
+        
+    
+    
+            var circle_6fd9ddd0870345e7ad07ec4664b3afa1 = L.circle(
+                [45.7578137, 4.8320114],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_4ed5d5bd76064ed2a0e751d1faaf9398 = L.popup({"maxWidth": 700});
+
+        
+            var html_f6d52b46102e412a8270b51a92a234cd = $(`<div id="html_f6d52b46102e412a8270b51a92a234cd" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Service Hygiene</td>       <td>Other: nosocomial infection/hospital acquired infection</td>     </tr>     <tr>       <th>1</th>       <td>Service Hygiene</td>       <td>Other: nosocomial infection/hospital acquired infection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_4ed5d5bd76064ed2a0e751d1faaf9398.setContent(html_f6d52b46102e412a8270b51a92a234cd);
+        
+
+        circle_6fd9ddd0870345e7ad07ec4664b3afa1.bindPopup(popup_4ed5d5bd76064ed2a0e751d1faaf9398)
+        ;
+
+        
+    
+    
+            var circle_17eec5e0dc554002aa1fef8a19799106 = L.circle(
+                [34.3468421, 108.9365887],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_fe1553b068b84e19acff51752046445b = L.popup({"maxWidth": 700});
+
+        
+            var html_baa9898c8896459b9f180d081c21b1c4 = $(`<div id="html_baa9898c8896459b9f180d081c21b1c4" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>Tangdu Hospital</td>       <td>Drug: Meplazumab for Injection</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_fe1553b068b84e19acff51752046445b.setContent(html_baa9898c8896459b9f180d081c21b1c4);
+        
+
+        circle_17eec5e0dc554002aa1fef8a19799106.bindPopup(popup_fe1553b068b84e19acff51752046445b)
+        ;
+
+        
+    
+    
+            var circle_e9bc6995871b4efa96513aec0cf082f7 = L.circle(
+                [35.3021133, 113.9202062],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_f06d2c8ee12d4f0bb87baac11e27d96f = L.popup({"maxWidth": 700});
+
+        
+            var html_5e0617dbc4dc49c898cbb57eb26460c7 = $(`<div id="html_5e0617dbc4dc49c898cbb57eb26460c7" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>The First Affiliated Hospital of Xinxiang Medical University</td>       <td>Biological: NK Cells</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_f06d2c8ee12d4f0bb87baac11e27d96f.setContent(html_5e0617dbc4dc49c898cbb57eb26460c7);
+        
+
+        circle_e9bc6995871b4efa96513aec0cf082f7.bindPopup(popup_f06d2c8ee12d4f0bb87baac11e27d96f)
+        ;
+
+        
+    
+    
+            var circle_d8d057fdf25e42dfba14148c6669fe82 = L.circle(
+                [44.841225, -0.5800364],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cb6e9453dd241f1b05d1d347869671e);
+        
+    
+        var popup_daffe7f956b143258efc5f3791bbec85 = L.popup({"maxWidth": 700});
+
+        
+            var html_7e1bd5cf8aac42a3830f98d971b92e68 = $(`<div id="html_7e1bd5cf8aac42a3830f98d971b92e68" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe table table-striped table-hover table-condensed table-responsive">   <thead>     <tr style="text-align: right;">       <th></th>       <th>Location</th>       <th>Interventions</th>     </tr>   </thead>   <tbody>     <tr>       <th>0</th>       <td>CHU Pellegrin</td>       <td>N/A</td>     </tr>   </tbody> </table></div>`)[0];
+            popup_daffe7f956b143258efc5f3791bbec85.setContent(html_7e1bd5cf8aac42a3830f98d971b92e68);
+        
+
+        circle_d8d057fdf25e42dfba14148c6669fe82.bindPopup(popup_daffe7f956b143258efc5f3791bbec85)
+        ;
+
+        
+    
+</script>
